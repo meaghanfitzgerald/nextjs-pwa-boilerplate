@@ -1,3 +1,25 @@
+I created this boilerplate for a Progressive Web Application that uses Next.js framework because many of the tutorials I found online left out important information about options in the `_document.tsx`, `mainfest.json`, and the `next.config.js` files. [This youtube tutorial](https://www.youtube.com/watch?v=ARNN_zmrwcw) had the most up-to-date information at the time, and the comments below were my best resources for creating a PWA with [`next-pwa`](https://www.npmjs.com/package/next-pwa) library and nextjs. Hope this is helpful!
+
+## To Set Up Your Own Progressive Web App with Next.js
+
+Fork this repo, clone to your machine, and when in the root folder, run `npm install`.
+
+If you want to immediately compile and view the boilerplate app on your machine, run:
+- `npx next build`
+followed by
+- `npx next start`
+- navigate to `localhost:3000` in your chrome browser (or any browser run with chromium), and view the app. 
+
+To import as a desktop app, click the icon seen here: 
+
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/99047250/213308384-370d7664-2f28-48de-a64a-dd896c8ad528.png">
+
+To customize, edit the provided `manifest.json` file in the `public` folder, and run through the workflow above. Be sure to have the `display` option set to "standalone" or "fullscreen". 
+
+Please feel free to leave feedback, comments, or links to issues so that this boilerplate can be kept up-to-date.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
