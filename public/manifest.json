@@ -1,12 +1,12 @@
 {
-    "theme_color": "#80b78e",
+    "theme_color": "#ffffff",
     "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "WishEase",
-    "short_name": "WishEase",
-    "description": "an app to help you schedule text messages you want sent every day, month, year, or millenium! ",
+    "name": "Example",
+    "short_name": "Nextjs PWA",
+    "description": "the boilerplate code necessary for creating a progressive web application with nextjs framework",
     "icons": [
         {
             "src": "/icon-192x192.png",
